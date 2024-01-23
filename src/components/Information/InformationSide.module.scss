@@ -1,0 +1,35 @@
+.container,
+.container-filled {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50vw;
+  gap: 4rem;
+
+  text-align: center;
+  padding: 6rem 4rem 10rem 4rem;
+}
+
+.container {
+  background-color: var(--color-pink);
+  color: var(--color-green);
+}
+
+.container-filled {
+  background-color: var(--color-green);
+  color: var(--color-white);
+}
+
+.heading {
+  text-transform: uppercase;
+  color: inherit;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+}
+
+.paragraph {
+  color: inherit;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}

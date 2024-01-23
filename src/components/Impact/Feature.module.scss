@@ -1,0 +1,29 @@
+.container {
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.2rem 6rem 1rem 6rem;
+  background-color: var(--color-light-green);
+  width: 80%;
+  border-radius: 1.5rem;
+}
+
+.image {
+  height: 6rem;
+  margin-bottom: 1rem;
+}
+
+.number,
+.text {
+  color: var(--color-green);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+.text {
+  font-size: 1.6rem;
+}

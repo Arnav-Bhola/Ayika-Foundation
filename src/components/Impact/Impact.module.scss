@@ -1,0 +1,21 @@
+.container {
+  padding: 6rem 6rem 8rem 6rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.heading {
+  color: var(--color-green);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  row-gap: 5rem;
+}

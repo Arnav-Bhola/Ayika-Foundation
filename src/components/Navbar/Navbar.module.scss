@@ -1,0 +1,71 @@
+.container {
+  width: 100%;
+  height: var(--navbar-height);
+  background-color: var(--color-pink);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.navigation {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  color: var(--color-green);
+}
+
+.link {
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: inherit;
+  user-select: none;
+}
+
+.button {
+  color: var(--color-white);
+  background-color: var(--color-green);
+  padding: 1rem 3rem;
+  border-radius: 1.5rem;
+  outline: none;
+  border: none;
+}
+
+.dropdown {
+  cursor: pointer;
+}
+
+.branding {
+  user-select: none;
+  text-transform: none;
+  text-wrap: nowrap;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: var(--color-green);
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.logo {
+  width: 5rem;
+}

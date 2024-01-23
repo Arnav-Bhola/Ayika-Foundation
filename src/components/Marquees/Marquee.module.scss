@@ -1,0 +1,19 @@
+.filled,
+.transparent {
+  font-family: "Moul", serif;
+  height: 13rem;
+  font-size: 4rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.filled {
+  background-color: var(--color-green);
+  color: var(--color-white);
+}
+
+.transparent {
+  background-color: var(--color-pink);
+  color: var(--color-green);
+}

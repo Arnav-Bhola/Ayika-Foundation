@@ -1,12 +1,12 @@
 [
-  { "position": "Director of Outreach", "name": "Eva Swanson", "image": "achintya" },
-  { "position": "Director of Design", "name": "Siddhant Mathur", "image": "achintya" },
+  { "position": "Director of Outreach", "name": "Eva Swanson", "image": "achintya.jpg" },
+  { "position": "Director of Design", "name": "Siddhant Mathur", "image": "achintya.jpg" },
   {
     "position": "Associate Director of Technology",
     "name": "Narain Singaram",
-    "image": "achintya"
+    "image": "achintya.jpg"
   },
-  { "position": "Outreach Specialist", "name": "Aarav Singh", "image": "achintya" },
-  { "position": "Social Media Manager", "name": "Nidhi Hegde", "image": "achintya" },
-  { "position": "Tech Specialist", "name": "Manish Chaurasiya", "image": "achintya" }
+  { "position": "Outreach Specialist", "name": "Aarav Singh", "image": "achintya.jpg" },
+  { "position": "Social Media Manager", "name": "Nidhi Hegde", "image": "achintya.jpg" },
+  { "position": "Tech Specialist", "name": "Manish Chaurasiya", "image": "achintya.jpg" }
 ]

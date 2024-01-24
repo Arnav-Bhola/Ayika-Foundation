@@ -18,9 +18,18 @@ const Navbar = () => {
       </div>
       <div className={styles["navigation"]}>
         <div className={styles["links"]}>
-          <div className={styles["dropdown"]}>
-            <p className={styles["link"]}>About</p>
-          </div>
+          <Link
+            to='/mission'
+            className={styles["link"]}
+          >
+            Mission
+          </Link>
+          <Link
+            to='/team'
+            className={styles["link"]}
+          >
+            Team
+          </Link>
           <Link
             to='/projects'
             className={styles["link"]}

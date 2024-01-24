@@ -71,7 +71,7 @@ const TeamPage = () => {
             <div className={styles["members-picture-container"]}>
               <picture>
                 <img
-                  src={"Team/" + member.image}
+                  src={"Images/Team/" + member.image}
                   alt={member.name}
                   loading='lazy'
                   className={styles["members-picture"]}

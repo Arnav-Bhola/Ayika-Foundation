@@ -33,3 +33,10 @@
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
 }
+
+@media only screen and (max-width: 50em) {
+  .container,
+  .container-filled {
+    width: 100%;
+  }
+}

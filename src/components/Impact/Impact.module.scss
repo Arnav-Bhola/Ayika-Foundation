@@ -19,3 +19,17 @@
   grid-template-rows: 1fr 1fr;
   row-gap: 5rem;
 }
+
+@media only screen and (max-width: 75em) {
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 50em) {
+  .features {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+}

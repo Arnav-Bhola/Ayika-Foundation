@@ -69,3 +69,19 @@
 .logo {
   width: 5rem;
 }
+
+.phone-toggler {
+  font-size: 3rem;
+  color: var(--color-green);
+  display: none;
+}
+
+@media only screen and (max-width: 50em) {
+  .navigation {
+    display: none;
+  }
+
+  .phone-toggler {
+    display: flex;
+  }
+}

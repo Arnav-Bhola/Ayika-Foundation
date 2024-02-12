@@ -66,3 +66,18 @@
 .left {
   left: 2.5vw;
 }
+
+.dots {
+  display: flex;
+  gap: 1rem;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.dot {
+  font-size: 8rem;
+  line-height: 0.2;
+  opacity: 0.7;
+  cursor: pointer;
+}

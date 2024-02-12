@@ -76,6 +76,21 @@ const RecognitionCarousel = () => {
       >
         <FontAwesomeIcon icon={faChevronLeft} />
       </button>
+      <div className={styles["dots"]}>
+        {IMAGES.map((_, index) => {
+          return (
+            <h5
+              className={styles["dot"]}
+              key={index}
+              onClick={() => {
+                setCurrentId(index + 1);
+              }}
+            >
+              .
+            </h5>
+          );
+        })}
+      </div>
     </div>
   );
 };

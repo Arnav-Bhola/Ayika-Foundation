@@ -4,6 +4,7 @@ import RootLayout from "./layouts/Root";
 import ErrorPage from "./pages/404";
 import HomePage from "./pages/Home";
 import TeamPage from "./pages/Team";
+import Gallery from "./pages/Gallery";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
         path: "team",
         element: <TeamPage />,
       },
+      { path: "gallery", element: <Gallery /> },
     ],
   },
 ]);

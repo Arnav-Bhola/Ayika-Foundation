@@ -1,5 +1,3 @@
-import styles from "./Home.module.scss";
-
 import Header from "../components/Header/Header";
 import Information from "../components/Information/Information";
 import Impact from "../components/Impact/Impact";
@@ -13,7 +11,7 @@ const HomePage = () => {
       <Information />
       <Impact />
       <Recognition />
-      <div className={styles["marquees"]}>
+      <div>
         <Marquee rank={1} />
         <Marquee rank={2} />
       </div>

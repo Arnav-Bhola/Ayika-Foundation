@@ -1,0 +1,57 @@
+.container {
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-bottom: 17rem;
+  padding-top: 8rem;
+}
+
+.header {
+  height: calc(100vh - var(--navbar-height));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Montserrat", serif;
+  text-wrap: nowrap;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10rem;
+}
+
+.gallery-object {
+  align-self: center;
+  justify-self: center;
+}
+
+.image {
+  width: 25vw;
+  height: 25vw;
+  align-self: center;
+  justify-self: center;
+  transition: all 0.5s;
+  border-radius: 15px;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.rotate2 {
+  transform: rotate(20deg) scale(0.9);
+  &:hover {
+    transform: rotate(20deg) scale(1);
+  }
+}
+
+.rotate1 {
+  transform: rotate(-20deg) scale(0.9);
+
+  &:hover {
+    transform: rotate(-20deg) scale(1);
+  }
+}

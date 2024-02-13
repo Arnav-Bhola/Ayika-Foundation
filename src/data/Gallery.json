@@ -1,0 +1,23 @@
+[
+  { "alt": "hi", "key": 1, "src": "rect.png", "link": "https://www.google.com" },
+  {
+    "alt": "hi all",
+    "key": 2,
+    "src": "rect2.png",
+    "special": "right",
+    "link": "https://www.google.com"
+  },
+  { "alt": "hi allll", "key": 3, "src": "rect3.png", "link": "https://www.google.com" },
+  { "alt": "hello", "key": 4, "src": "rect4.png", "link": "https://www.google.com" },
+  { "alt": "hola", "key": 5, "src": "rect5.png", "link": "https://www.google.com" },
+  { "alt": "hi", "key": 6, "src": "rect6.png", "link": "https://www.google.com" },
+  {
+    "alt": "hi all",
+    "key": 7,
+    "src": "rect7.png",
+    "special": "left",
+    "link": "https://www.google.com"
+  },
+  { "alt": "hi allll", "key": 8, "src": "rect8.png", "link": "https://www.google.com" },
+  { "alt": "hello", "key": 9, "src": "rect9.png", "link": "https://www.google.com" }
+]

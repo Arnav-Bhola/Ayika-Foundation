@@ -2,7 +2,7 @@
   padding-right: 4rem;
   padding-left: 4rem;
   padding-bottom: 17rem;
-  padding-top: 8rem;
+  padding-top: 0rem;
 }
 
 .header {
@@ -14,7 +14,8 @@
   text-decoration: underline;
   text-transform: uppercase;
   font-family: "Montserrat", serif;
-  text-wrap: nowrap;
+  text-align: center;
+  line-height: 1.2;
 }
 
 .grid {
@@ -53,5 +54,47 @@
 
   &:hover {
     transform: rotate(-20deg) scale(1);
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .image {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .rotate1 {
+    transform: rotate(0) scale(1);
+  }
+
+  .rotate2 {
+    transform: rotate(0) scale(1);
+  }
+}
+
+@media only screen and (max-width: 36em) {
+  .header {
+    font-size: 5.5rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .image {
+    width: 70vw;
+    height: 70vw;
+  }
+}
+
+@media only screen and (max-width: 28.125em) {
+  .header {
+    font-size: 4rem;
   }
 }

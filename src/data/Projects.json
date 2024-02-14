@@ -1,0 +1,32 @@
+[
+  {
+    "heading": "Shepherd",
+    "imagename": "rect.png",
+    "details": "labore natus aperiam illo quas, est iste laudantium eveniet.",
+    "link": "https://www.google.com"
+  },
+  {
+    "heading": "Urban Cities",
+    "imagename": "rect2.png",
+    "details": "iste laudantium eveniet. Quis rerum voluptatibus ipsam natus ",
+    "link": "https://www.google.com"
+  },
+  {
+    "heading": "American",
+    "imagename": "rect3.png",
+    "details": "Quis rerum voluptatibus ipsam natus laborum.",
+    "link": "https://www.google.com"
+  },
+  {
+    "heading": "Pitch",
+    "imagename": "rect4.png",
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "link": "https://www.google.com"
+  },
+  {
+    "heading": "Colonel",
+    "imagename": "rect5.png",
+    "details": "est iste laudantium eveniet. Quis rerum voluptatibus ipsam natus laborum.",
+    "link": "https://www.google.com"
+  }
+]

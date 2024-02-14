@@ -8,6 +8,8 @@ import rect3 from "../../public/Images/Projects/rect3.png";
 import rect4 from "../../public/Images/Projects/rect4.png";
 import rect5 from "../../public/Images/Projects/rect5.png";
 
+import Projects from "../data/Projects.json";
+
 const ProjectsPage = () => {
   return (
     <div className={styles["container"]}>
@@ -20,36 +22,17 @@ const ProjectsPage = () => {
         </p>
       </div>
       <div className={styles["quizzes"]}>
-        <Project
-          heading='Geography'
-          details='labore natus aperiam illo quas, est iste laudantium eveniet.'
-          link='https://www.google.com'
-          image={rect1}
-        />
-        <Project
-          heading='Urban Cities'
-          details='Quis rerum voluptatibus ipsam natus laborum.'
-          link='https://www.google.com'
-          image={rect2}
-        />
-        <Project
-          heading='Culture'
-          details='iste laudantium eveniet. Quis rerum voluptatibus ipsam natus '
-          link='https://www.google.com'
-          image={rect3}
-        />
-        <Project
-          heading='Food'
-          details='Lorem ipsum dolor sit amet consectetur adipisicing elit.'
-          link='https://www.google.com'
-          image={rect4}
-        />
-        <Project
-          heading='Language'
-          details='est iste laudantium eveniet. Quis rerum voluptatibus ipsam natus laborum.'
-          link='https://www.google.com'
-          image={rect5}
-        />
+        {Projects.map((i, index) => {
+          return (
+            <Project
+              key={index}
+              heading={i.heading}
+              details={i.details}
+              link={i.link}
+              image={"Images/Projects/" + i.imagename}
+            />
+          );
+        })}
       </div>
     </div>
   );

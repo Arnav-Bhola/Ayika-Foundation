@@ -7,6 +7,7 @@
   text-decoration: underline;
   text-transform: uppercase;
   font-family: "Montserrat", serif;
+  text-align: center;
 }
 
 .founders-container {
@@ -176,6 +177,18 @@
     flex-direction: column;
     gap: 5rem;
     margin: 15rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 36em) {
+  .header {
+    font-size: 7rem;
+  }
+}
+
+@media only screen and (max-width: 24em) {
+  .header {
+    font-size: 4rem;
   }
 }
 

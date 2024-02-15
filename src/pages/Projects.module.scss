@@ -1,5 +1,5 @@
 .container {
-  height: calc(100vh - var(--navbar-height));
+  min-height: calc(100vh - var(--navbar-height));
   display: flex;
   text-align: center;
   gap: 6rem;
@@ -29,9 +29,11 @@
 }
 
 .quizzes {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
   align-items: center;
-  gap: 3rem;
+  row-gap: 3rem;
   height: fit-content;
   max-height: 80%;
 }
@@ -51,5 +53,57 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 81em) {
+  .quizzes {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media only screen and (max-width: 62.5em) {
+  .quizzes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 46.875em) {
+  .quizzes {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 3rem;
+    column-gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 38.75em) {
+  .quizzes {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 1rem;
+    column-gap: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .quizzes {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 7rem;
+    column-gap: 0rem;
+  }
+}
+
+@media only screen and (max-width: 26.25em) {
+  .quizzes {
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 18.75em) {
+  .quizzes {
+    padding: 0 0.2rem;
+  }
+
+  .container {
+    padding: 4rem 2rem;
   }
 }

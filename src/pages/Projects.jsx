@@ -2,12 +2,6 @@ import styles from "./Projects.module.scss";
 
 import Project from "../components/Projects/Project";
 
-import rect1 from "../../public/Images/Projects/rect.png";
-import rect2 from "../../public/Images/Projects/rect2.png";
-import rect3 from "../../public/Images/Projects/rect3.png";
-import rect4 from "../../public/Images/Projects/rect4.png";
-import rect5 from "../../public/Images/Projects/rect5.png";
-
 import Projects from "../data/Projects.json";
 
 const ProjectsPage = () => {

@@ -25,3 +25,27 @@
   font-size: 3.5rem;
   font-weight: 400;
 }
+
+@media only screen and (max-width: 31.25em) {
+  .heading {
+    font-size: 6rem;
+    text-wrap: wrap;
+  }
+
+  .subheading {
+    font-size: 3rem;
+    text-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 22.25em) {
+  .heading {
+    font-size: 4rem;
+    text-wrap: wrap;
+  }
+
+  .subheading {
+    font-size: 2rem;
+    text-wrap: wrap;
+  }
+}

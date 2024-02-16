@@ -98,3 +98,9 @@
     font-size: 4rem;
   }
 }
+
+@media only screen and (max-width: 25em) {
+  .header {
+    font-size: 3rem;
+  }
+}

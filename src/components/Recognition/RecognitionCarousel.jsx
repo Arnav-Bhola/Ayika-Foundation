@@ -78,9 +78,10 @@ const RecognitionCarousel = () => {
       </button>
       <div className={styles["dots"]}>
         {IMAGES.map((_, index) => {
+          const c = index + 1 === currentId ? styles["current-dot"] : "";
           return (
             <h5
-              className={styles["dot"]}
+              className={styles["dot"] + " " + c}
               key={index}
               onClick={() => {
                 setCurrentId(index + 1);

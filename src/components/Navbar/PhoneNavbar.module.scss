@@ -8,7 +8,6 @@
 .links {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   justify-self: center;
   gap: 2rem;
@@ -21,12 +20,51 @@
   font-family: "Montserrat", sans-serif;
   color: inherit;
   user-select: none;
+  text-transform: uppercase;
+}
+
+.link-container {
+  gap: 3rem;
+  width: 100%;
+  display: flex;
   color: var(--color-green);
+  align-items: center;
+}
+
+.dropdown {
+  .icon {
+    opacity: 1;
+  }
+}
+
+.icon {
+  font-size: 2rem;
+  opacity: 0;
+}
+
+.dropdown-content {
+  margin-left: 3rem;
+}
+
+.button {
+  color: var(--color-white);
+  background-color: var(--color-green);
+  padding: 1rem 3rem;
+  border-radius: 1.5rem;
+  outline: none;
+  border: none;
+  margin-top: 2rem;
+  width: 80vw;
+  align-self: center;
+  text-align: center;
+  justify-self: center;
 }
 
 @media only screen and (max-width: 50em) {
   .container {
     display: flex;
-    justify-content: center;
+    padding: 4rem;
+    width: 100%;
+    flex-direction: column;
   }
 }

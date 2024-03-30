@@ -1,7 +1,5 @@
 [
-  { "alt": "hi", "key": 1, "src": "rect.png" },
-  { "alt": "hi all", "key": 2, "src": "rect2.png" },
-  { "alt": "hi allll", "key": 3, "src": "rect3.png" },
-  { "alt": "hello", "key": 4, "src": "rect4.png" },
-  { "alt": "hola", "key": 5, "src": "rect5.png" }
+  { "alt": "hi", "key": 1, "src": "1.jpg" },
+  { "alt": "hi all", "key": 2, "src": "2.jpg" },
+  { "alt": "hi allll", "key": 3, "src": "3.jpg" }
 ]

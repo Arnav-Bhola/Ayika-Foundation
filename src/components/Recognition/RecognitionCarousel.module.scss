@@ -12,7 +12,7 @@
   overflow: hidden;
 
   img {
-    width: 80vw;
+    width: 95%;
     user-select: none;
   }
 }
@@ -87,4 +87,16 @@
   line-height: 0.2;
   opacity: 0.7;
   cursor: pointer;
+}
+
+.current-dot {
+  color: red;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .image-shown,
+  .image-next,
+  .image-previous {
+    border-radius: 3rem;
+  }
 }

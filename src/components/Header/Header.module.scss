@@ -11,6 +11,7 @@
   justify-content: center;
   text-align: center;
   z-index: 10000;
+  overflow: hidden;
 }
 
 .heading,
@@ -35,16 +36,17 @@
 .background {
   position: absolute;
   height: calc(100vh - var(--navbar-height));
-  width: 100vw;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .background-image {
   height: 100%;
   overflow: hidden;
+  position: absolute;
 }
 
 @media only screen and (max-width: 31.25em) {

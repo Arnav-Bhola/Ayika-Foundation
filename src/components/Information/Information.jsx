@@ -8,13 +8,13 @@ const Information = () => {
       <InformationSide
         header={"who we are"}
         content={
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium nulla id erat scelerisque dignissim. Praesent a finibus orci, quis suscipit nisl. Suspendisse accumsan mi tellus, at tincidunt dui luctus ultrices. Donec sed sodales urna, ut viverra neque. Etiam fringilla sem sapien, quis consectetur ligula gravida eu. Etiam et turpis id arcu ornare iaculis. Praesent pretium congue magna porta tristique. Nam id blandit arcu, sed ullamcorper neque. Aenean pretium, dui id ornare scelerisque, mi ante sodales velit, quis varius felis massa id sem. Aenean congue posuere nisi sed iaculis. Integer a dui tellus. Cras in cursus purus."
+          "We are a group of young activists who wish to create a difference in the society by doing all that we can. Climate action and animal welfare are two issues that are matter to us the most, and therefore, we work to create awareness about climate action through our events. Our mission aims at making the Earth green for the next generations to thrive on and to provide animals a safer home and proper care."
         }
       />
       <InformationSide
         header={"what we do"}
         content={
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium nulla id erat scelerisque dignissim. Praesent a finibus orci, quis suscipit nisl. Suspendisse accumsan mi tellus, at tincidunt dui luctus ultrices. Donec sed sodales urna, ut viverra neque. Etiam fringilla sem sapien, quis consectetur ligula gravida eu. Etiam et turpis id arcu ornare iaculis. Praesent pretium congue magna porta tristique. Nam id blandit arcu, sed ullamcorper neque. Aenean pretium, dui id ornare scelerisque, mi ante sodales velit, quis varius felis massa id sem. Aenean congue posuere nisi sed iaculis. Integer a dui tellus. Cras in cursus purus."
+          "Ayika Foundation works towards creating a sustainable future for humans and animals alike by conducting various projects, drives, campaigns, spreading awareness, writing blogs, and hosting podcasts. We wish to transform the way people think about waste management, and promote animal protection. We recently conducted a public park cleanup and recycling campaign."
         }
         filled
       />

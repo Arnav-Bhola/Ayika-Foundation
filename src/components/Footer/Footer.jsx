@@ -129,7 +129,7 @@ const Footer = () => {
           <span className={styles["symbol"]}>&copy;</span>
           <span className={styles["brand"]}>
             Ayika Foundation |&nbsp;
-            <a href='mailto:team@internio.app'>team@internio.app</a>
+            <a href='mailto:ayika.foundation@gmail.com'>ayika.foundation@gmail.com</a>
           </span>
         </p>
 

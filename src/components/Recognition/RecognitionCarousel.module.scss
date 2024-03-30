@@ -17,34 +17,41 @@
   }
 }
 
-.image-hidden,
-.image-next,
-.image-previous {
+.image-hidden {
   display: none;
 }
 
 .image-shown {
   border-radius: 5rem;
+  transition: all 0.5s;
 }
 
 .image-next {
   transform: translateX(90vw);
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s;
+  border-radius: 5rem;
 }
 
 .image-previous {
   transform: translateX(-90vw);
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s;
+  border-radius: 5rem;
 }
 
 .right,
 .left {
   outline: none;
   border: none;
-  color: var(--color-white);
-  background-color: rgba(18, 16, 14, 0.828);
+  color: var(--color-black);
   opacity: 0.9;
   font-size: 5rem;
   padding: 4rem;
   border-radius: 50vw;
+  background-color: transparent;
   width: 5rem;
   height: 5rem;
   cursor: pointer;

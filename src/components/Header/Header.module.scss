@@ -1,18 +1,19 @@
 .container {
   height: calc(100vh - var(--navbar-height));
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  z-index: 10000;
 }
 
 .heading,
 .subheading {
   font-family: "Montserrat", sans-serif;
-  color: var(--color-black);
+  color: var(--color-white);
   text-align: center;
+  z-index: 10000;
 }
 
 .heading {
@@ -24,6 +25,10 @@
 .subheading {
   font-size: 3.5rem;
   font-weight: 400;
+}
+
+.background {
+  position: absolute;
 }
 
 @media only screen and (max-width: 31.25em) {

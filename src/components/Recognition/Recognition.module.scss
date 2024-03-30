@@ -4,12 +4,18 @@
   display: flex;
   flex-direction: column;
   gap: 6rem;
+  margin-top: 5rem;
 }
 
 .heading {
   color: var(--color-green);
-  font-size: 3rem;
+  font-size: 5rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }

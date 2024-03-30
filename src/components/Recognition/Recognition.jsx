@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Recognition.module.scss";
 
 import RecognitionCarousel from "./RecognitionCarousel";
@@ -5,7 +6,12 @@ import RecognitionCarousel from "./RecognitionCarousel";
 const Recognition = () => {
   return (
     <div className={styles["container"]}>
-      <h1 className={styles["heading"]}>Recognitions</h1>
+      <Link
+        className={styles["heading"]}
+        to='/recognitions'
+      >
+        RECOGNITIONS
+      </Link>
       <RecognitionCarousel />
     </div>
   );

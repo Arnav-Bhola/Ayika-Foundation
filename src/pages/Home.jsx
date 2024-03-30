@@ -9,8 +9,8 @@ const HomePage = () => {
     <div>
       <Header />
       <Information />
-      <Impact />
       <Recognition />
+      <Impact />
       <div>
         <Marquee rank={1} />
         <Marquee rank={2} />

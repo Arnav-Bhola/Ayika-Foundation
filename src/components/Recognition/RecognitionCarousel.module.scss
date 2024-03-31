@@ -12,7 +12,7 @@
   overflow: hidden;
 
   img {
-    width: 95%;
+    width: 80%;
     user-select: none;
   }
 }
@@ -98,5 +98,11 @@
   .image-next,
   .image-previous {
     border-radius: 3rem;
+  }
+
+  .photos {
+    img {
+      width: 95%;
+    }
   }
 }

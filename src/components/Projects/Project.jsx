@@ -6,13 +6,13 @@ const Project = ({ heading, details, image, link }) => {
       <h1 className={styles["heading"]}>{heading}</h1>
 
       <p className={styles["details"]}>{details}</p>
-
-      <img
-        src={image}
-        alt={heading}
-        className={styles["image"]}
-      ></img>
-
+      <div className={styles["image-container"]}>
+        <img
+          src={image}
+          alt={heading}
+          className={styles["image"]}
+        ></img>
+      </div>
       <a
         href={link}
         className={styles["link"]}

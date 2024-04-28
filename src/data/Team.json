@@ -1,12 +1,19 @@
 [
-  { "position": "Director of Outreach", "name": "Eva Swanson", "image": "achintya.jpg" },
-  { "position": "Director of Design", "name": "Siddhant Mathur", "image": "achintya.jpg" },
+  { "position": "Project intern", "name": "Siyaa Chaturvedi", "image": "achintya.jpg" },
+  { "position": "Content Writer", "name": "Ria Damani", "image": "achintya.jpg" },
+  { "position": "Technology Co-Director", "name": "Arnav Bhola", "image": "achintya.jpg" },
+  { "position": "PR Department Head", "name": "Hritik Kotadia", "image": "achintya.jpg" },
+  { "position": "NJ Chapter Head", "name": "Aarav Singh", "image": "achintya.jpg" },
   {
-    "position": "Associate Director of Technology",
-    "name": "Narain Singaram",
+    "position": "Content Writer",
+    "name": "Shashidhar Prabhu",
     "image": "achintya.jpg"
   },
-  { "position": "Outreach Specialist", "name": "Aarav Singh", "image": "achintya.jpg" },
-  { "position": "Social Media Manager", "name": "Nidhi Hegde", "image": "achintya.jpg" },
-  { "position": "Tech Specialist", "name": "Manish Chaurasiya", "image": "achintya.jpg" }
+  { "position": "Content Writing Intern", "name": "Anvita Bhogadi", "image": "achintya.jpg" },
+  { "position": "Social Media Head", "name": "Naveli Mehta", "image": "achintya.jpg" },
+  { "position": "Social Media Designer", "name": "Nishtha Purohit", "image": "achintya.jpg" },
+  { "position": "Technology Co-Director", "name": "Achintya Pasricha", "image": "achintya.jpg" },
+  { "position": "Director of Design", "name": "Manav Sharma", "image": "achintya.jpg" },
+  { "position": "Content Writer", "name": "Ziya Nandu", "image": "achintya.jpg" },
+  { "position": "Social Media Manager ", "name": "Sara Shah", "image": "achintya.jpg" }
 ]

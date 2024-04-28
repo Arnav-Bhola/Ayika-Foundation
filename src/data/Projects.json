@@ -1,32 +1,38 @@
 [
   {
-    "heading": "Shepherd",
+    "heading": "Avighna",
     "imagename": "rect.png",
-    "details": "labore natus aperiam illo quas, est iste laudantium eveniet.",
+    "details": "A flower collection drive from 30+ Ganpati Pandals across the city of mumbai.",
     "link": "https://www.google.com"
   },
   {
-    "heading": "Urban Cities",
-    "imagename": "rect2.png",
-    "details": "iste laudantium eveniet. Quis rerum voluptatibus ipsam natus ",
+    "heading": "Project Beachify",
+    "imagename": "beachify1.jpg",
+    "details": "Over 100kgs of waste from the beaches recycled",
     "link": "https://www.google.com"
   },
   {
-    "heading": "American",
-    "imagename": "rect3.png",
+    "heading": "The Ayika Trek",
+    "imagename": "ayika_trek.jpg",
     "details": "Quis rerum voluptatibus ipsam natus laborum.",
     "link": "https://www.google.com"
   },
   {
-    "heading": "Pitch",
-    "imagename": "rect4.png",
-    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "heading": "The Ayika Cup",
+    "imagename": "ayika_cup.jpg",
+    "details": "Football Fundraiser which raised rupees 20k that was futher donated to a stray animal welfare clinic.",
     "link": "https://www.google.com"
   },
   {
-    "heading": "Colonel",
-    "imagename": "rect5.png",
-    "details": "est iste laudantium eveniet. Quis rerum voluptatibus ipsam natus laborum.",
+    "heading": "Beachify 2.0",
+    "imagename": "beachify2.jpg",
+    "details": "Collected 200+ kgs of flower waste. Cleared 250 kgs of waste from the beaches.",
+    "link": "https://www.google.com"
+  },
+  {
+    "heading": "E-Waste Cycling Drive",
+    "imagename": "e_waste_drive.jpg",
+    "details": "E-waste collection drive at two housing societies. 50kgs of gadgets recycled.",
     "link": "https://www.google.com"
   }
 ]

@@ -11,9 +11,21 @@
   justify-self: center;
 }
 
+.image-container {
+  height: 18rem;
+  overflow: hidden;
+  position: relative;
+  display: flex; /* Add this */
+  justify-content: center; /* Add this */
+  align-items: center; /* Add this */
+}
+
 .image {
   width: 100%;
-  height: 18rem;
+  position: absolute;
+  top: 50%; /* Change this from 0 */
+  transform: translateY(-50%); /* Add this */
+  left: 0;
 }
 
 .heading {
@@ -24,7 +36,7 @@
 
 .details {
   color: var(--color-black);
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   padding: 0 0.1rem;
   height: 3rem;
   display: flex;

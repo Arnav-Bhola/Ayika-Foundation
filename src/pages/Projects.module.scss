@@ -30,7 +30,7 @@
 
 .quizzes {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   align-items: center;
   row-gap: 3rem;
@@ -58,7 +58,7 @@
 
 @media only screen and (max-width: 81em) {
   .quizzes {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

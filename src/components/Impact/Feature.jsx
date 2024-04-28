@@ -28,7 +28,7 @@ const Feature = ({ icon, number, text }) => {
             <CountUp
               start={0}
               end={number}
-              duration={2}
+              duration={1}
               delay={0}
             />
           </h1>

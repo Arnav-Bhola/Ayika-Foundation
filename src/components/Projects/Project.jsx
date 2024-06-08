@@ -13,12 +13,12 @@ const Project = ({ heading, details, image, link }) => {
           className={styles["image"]}
         ></img>
       </div>
-      <a
+      {/* <a
         href={link}
         className={styles["link"]}
       >
         Learn More
-      </a>
+      </a> */}
     </div>
   );
 };

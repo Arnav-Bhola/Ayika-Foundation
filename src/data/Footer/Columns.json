@@ -2,32 +2,37 @@
   {
     "header": "socials",
     "links": [
-      { "url": "https://dsc.gg/internio", "title": "discord" },
-      { "url": "https://www.instagram.com/internio.app/", "title": "instagram" },
-      { "url": "https://www.linkedin.com/company/internio/", "title": "linkedIn" },
-      { "url": "https://github.com/achintya-dot-you/internio", "title": "github" }
+      { "url": "https://www.instagram.com/ayika.foundation/", "title": "instagram" },
+      {
+        "url": "https://www.linkedin.com/company/ayikafoundation/?originalSubdomain=in",
+        "title": "linkedIn"
+      },
+      { "url": "https://github.com/Arnav-Bhola/Ayika-Foundation", "title": "github" }
     ]
   },
   {
     "header": "about",
     "links": [
-      { "url": "internio/mission", "title": "our mission" },
-      { "url": "internio/team", "title": "team" },
+      { "url": "ayika/story", "title": "our story" },
+      { "url": "ayika/team", "title": "team" },
       {
         "url": "https://internio.notion.site/Job-Board-f02cf790ddc944f1ab233c22cf44157e",
         "title": "careers"
       },
-      { "url": "https://www.paypal.me/internio", "title": "donate" },
-      { "url": "https://forms.gle/jNRsqQMZfL7ZFamAA", "title": "contact" }
+      { "url": "https://forms.gle/Mou3eu26RQ7eqThr6", "title": "contact" }
     ]
   },
   {
-    "header": "services",
+    "header": "work",
     "links": [
-      { "url": "internio/opportunities", "title": "opportunities" },
+      { "url": "ayika/projects", "title": "projects" },
       {
-        "url": "internio/resources",
-        "title": "resources"
+        "url": "ayika/gallery",
+        "title": "gallery"
+      },
+      {
+        "url": "ayika/recognitions",
+        "title": "recognitions"
       }
     ]
   },

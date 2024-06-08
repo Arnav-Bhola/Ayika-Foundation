@@ -10,9 +10,12 @@ const ProjectsPage = () => {
       <div className={styles["text"]}>
         <h1 className={styles["heading"]}>Our Projects!</h1>
         <p className={styles["paragraph"]}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus esse ad ipsa dicta
-          hic molestiae, labore natus aperiam illo quas, est iste laudantium eveniet. Quis rerum
-          voluptatibus ipsam natus laborum.
+          Over the last three years, we have worked tirelessly to ideate, implement, reflect, and
+          re-ideate to host projects which lie at the heart of our mission–to combine purpose with
+          fun. All our projects, regardless of what work they require, include an educational
+          component to ensure people are aware of the simple steps they can take to make a
+          difference. Our projects include a broad range of activities, all targetted towards some
+          or the other facet concerning the environment or animals.r
         </p>
       </div>
       <div className={styles["quizzes"]}>

@@ -4,8 +4,9 @@ import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 
 import styles from "./Feature.module.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Feature = ({ icon, number, text }) => {
+const Feature = ({ icon, number, text, plus = false }) => {
   const [counterOn, setCounterOn] = useState(false);
 
   return (
@@ -18,9 +19,8 @@ const Feature = ({ icon, number, text }) => {
       }}
     >
       <div className={styles["container"]}>
-        <img
-          src={icon}
-          alt={number + " " + text}
+        <FontAwesomeIcon
+          icon={icon}
           className={styles["image"]}
         />
         {counterOn && (
@@ -31,6 +31,7 @@ const Feature = ({ icon, number, text }) => {
               duration={1}
               delay={0}
             />
+            {plus && "+"}
           </h1>
         )}
         <p className={styles["text"]}>{text}</p>

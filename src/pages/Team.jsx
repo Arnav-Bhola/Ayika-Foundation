@@ -2,7 +2,8 @@ import styles from "./Team.module.scss";
 
 import data from "../data/Team.json";
 
-import achintya from "../assets/images/Team/achintya.jpg";
+import siya from "../assets/images/Team/Siyaa_Chaturvedi.png";
+import litisha from "../assets/images/Team/Litisha_Bagadia.png";
 
 const TeamPage = () => {
   return (
@@ -15,10 +16,10 @@ const TeamPage = () => {
           <div className={styles["founders-picture-container"]}>
             <picture>
               <img
-                src={achintya}
-                alt='achintya'
+                src={litisha}
+                alt='Litisha'
                 loading='lazy'
-                className={styles["founders-picture"] + " " + styles["arnav-pic"]}
+                className={styles["founders-picture"]}
               />
             </picture>
           </div>
@@ -26,13 +27,12 @@ const TeamPage = () => {
             <h3 className={styles["founders-position"]}>Co-Founder</h3>
             <h2 className={styles["founders-name"]}>Litisha Bagadia</h2>
             <p className={styles["founders-desc"]}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Sed cras ornare arcu dui. In cursus
-              turpis massa tincidunt dui ut ornare lectus. Sit amet aliquam id diam maecenas. Sem
-              viverra aliquet eget sit amet tellus. Tincidunt praesent semper feugiat nibh sed
-              pulvinar proin gravida. Enim sit amet venenatis urna cursus eget. Egestas quis ipsum
-              suspendisse ultrices gravida dictum fusce ut. Arcu dui vivamus arcu felis bibendum ut
-              tristique.
+              Litisha Bagadia is a high school graduate from Mumbai, India. She is deeply interested
+              in psychology, education, business, and climate action. She spoke about her journey at
+              Ayika as a TEDx speaker and loves being on stage. In her free time, she likes
+              exploring new cafés in Mumbai, baking, and has a newfound love for photography!
+              Through Ayika, Litisha hopes to create a chain of youth climate action changemakers
+              globally who spread effective sustainability education!
             </p>
           </div>
         </div>
@@ -40,8 +40,8 @@ const TeamPage = () => {
           <div className={styles["founders-picture-container"]}>
             <picture>
               <img
-                src={achintya}
-                alt='arnav'
+                src={siya}
+                alt='Siyaa'
                 loading='lazy'
                 className={styles["founders-picture"]}
               />

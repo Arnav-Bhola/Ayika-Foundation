@@ -1,21 +1,16 @@
 [
   {
-    "url": "https://dsc.gg/internio",
-    "iconName": "faDiscord",
-    "name": "Discord"
-  },
-  {
-    "url": "https://www.instagram.com/internio.app/",
+    "url": "https://www.instagram.com/ayika.foundation/",
     "iconName": "faInstagram",
     "name": "Instagram"
   },
   {
-    "url": "https://www.linkedin.com/company/internio/",
+    "url": "https://www.linkedin.com/company/ayikafoundation/?originalSubdomain=in",
     "iconName": "faLinkedin",
     "name": "LinkedIn"
   },
   {
-    "url": "https://github.com/achintya-dot-you/internio",
+    "url": "https://github.com/Arnav-Bhola/Ayika-Foundation",
     "iconName": "faGithub",
     "name": "GitHub"
   }

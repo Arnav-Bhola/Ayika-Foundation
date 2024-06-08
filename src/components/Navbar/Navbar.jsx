@@ -51,14 +51,12 @@ const Navbar = () => {
               Gallery
             </Link>
           </div>
-          <button className={styles["button"]}>
-            <Link
-              to='/contact'
-              className={styles["link"]}
-            >
-              Contact Us
-            </Link>
-          </button>
+          <a
+            href='https://forms.gle/Q3qbF55uf8EG7wE3A'
+            className={styles["link"] + " " + styles["button"]}
+          >
+            Contact Us
+          </a>
         </div>
         <FontAwesomeIcon
           icon={faBars}

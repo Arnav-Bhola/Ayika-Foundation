@@ -2,9 +2,14 @@ import styles from "./Impact.module.scss";
 
 import Feature from "./Feature";
 
-import Star from "../../assets/images/Impact/star.svg";
-import Teaching from "../../assets/images/Impact/teaching.svg";
-import Tree from "../../assets/images/Impact/tree.svg";
+import {
+  faBookmark,
+  faHandFist,
+  faHandshake,
+  faPeopleGroup,
+  faRecycle,
+} from "@fortawesome/free-solid-svg-icons";
+import { faDog } from "@fortawesome/free-solid-svg-icons";
 
 const Impact = () => {
   return (
@@ -12,34 +17,38 @@ const Impact = () => {
       <h1 className={styles["heading"]}>Our Impact</h1>
       <div className={styles["features"]}>
         <Feature
-          icon={Star}
-          number={3}
-          text='kilograms of tetra-packs removed'
+          icon={faPeopleGroup}
+          number={1000000}
+          plus
+          text='People Impacted'
         />
         <Feature
-          icon={Teaching}
-          number={6}
-          text='kielograms of polythene removed'
+          icon={faDog}
+          number={10}
+          text='Strays Helped'
         />
         <Feature
-          icon={Tree}
-          number={30}
-          text='kilograms of dry waste removed'
+          icon={faRecycle}
+          number={6600}
+          plus
+          text='Pounds of Dry Waste Recycled'
         />
         <Feature
-          icon={Tree}
-          number={18}
-          text='kilograms of ldpe, soft plastic, gunny bags removed'
+          icon={faHandshake}
+          number={10}
+          plus
+          text='Partners'
         />
         <Feature
-          icon={Star}
-          number={3}
-          text='kilograms of multi-layer-plastic waste removed'
+          icon={faBookmark}
+          number={5}
+          text='Chapters'
         />
         <Feature
-          icon={Star}
-          number={95}
-          text='kilograms of total waste removed'
+          icon={faHandFist}
+          number={500}
+          plus
+          text='Volunteers'
         />
       </div>
     </div>

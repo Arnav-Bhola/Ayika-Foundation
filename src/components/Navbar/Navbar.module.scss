@@ -29,6 +29,11 @@
   font-family: "Montserrat", sans-serif;
   color: inherit;
   user-select: none;
+  transition: all 0.8s;
+
+  &:hover {
+    transform: translateY(-0.3rem);
+  }
 }
 
 .button {

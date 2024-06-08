@@ -48,12 +48,12 @@ const Footer = () => {
                 {/* Mapping through the links in each column from the json file */}
                 {column.links.map((link) => {
                   // Checking if the link is a link in internio
-                  // In json, if the link starts with 'internio/', it's part of the website.
-                  if (link.url.startsWith("internio/")) {
+                  // In json, if the link starts with 'ayika/', it's part of the website.
+                  if (link.url.startsWith("ayika/")) {
                     return (
                       // Creating a link for each mapped link using the url, key and title in the json
                       <Link
-                        to={link.url.substring("internio".length)}
+                        to={link.url.substring("ayika".length)}
                         className={styles["link"]}
                         key={link.title}
                       >

@@ -20,8 +20,9 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  row-gap: 10rem;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 3rem;
+  column-gap: 3rem;
 }
 
 .gallery-object {
@@ -30,30 +31,14 @@
 }
 
 .image {
-  width: 25vw;
-  height: 25vw;
+  width: 100%;
   align-self: center;
   justify-self: center;
   transition: all 0.5s;
-  border-radius: 15px;
+  border-radius: 4px;
 
   &:hover {
-    transform: scale(1.1);
-  }
-}
-
-.rotate2 {
-  transform: rotate(20deg) scale(0.9);
-  &:hover {
-    transform: rotate(20deg) scale(1);
-  }
-}
-
-.rotate1 {
-  transform: rotate(-20deg) scale(0.9);
-
-  &:hover {
-    transform: rotate(-20deg) scale(1);
+    transform: scale(1.05);
   }
 }
 
@@ -63,8 +48,7 @@
   }
 
   .image {
-    width: 30vw;
-    height: 30vw;
+    width: 100%;
   }
 
   .rotate1 {
@@ -88,8 +72,7 @@
   }
 
   .image {
-    width: 70vw;
-    height: 70vw;
+    width: 100%;
   }
 }
 

@@ -12,13 +12,6 @@ const Gallery = () => {
         {GALLERY_CONTENT.map((i, index) => {
           let classes = styles["image"];
 
-          if (i.special) {
-            classes =
-              styles["image"] +
-              " " +
-              (i.special === "left" ? styles["rotate1"] : styles["rotate2"]);
-          }
-
           return (
             <a
               href={i.link}
@@ -27,7 +20,7 @@ const Gallery = () => {
             >
               <img
                 className={classes}
-                src={"Images/Gallery/" + i.src}
+                src={`Images/Gallery/${i.orientation}/${i.project}/` + i.src}
                 alt={i.alt}
               ></img>
             </a>

@@ -27,10 +27,10 @@ const Navbar = () => {
         <div className={styles["navigation"]}>
           <div className={styles["links"]}>
             <Link
-              to='/story'
+              to='/about'
               className={styles["link"]}
             >
-              Our Story
+              About Us
             </Link>
             <Link
               to='/team'

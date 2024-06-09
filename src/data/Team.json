@@ -1,27 +1,27 @@
 [
-  { "position": "Project intern", "name": "Siyaa Chaturvedi", "image": "Siyaa_Chaturvedi.png" },
-  { "position": "Content Writer", "name": "Ria Damani", "image": "Ria_Damani.png" },
-  { "position": "Technology Co-Director", "name": "Arnav Bhola", "image": "Arnav_Bhola.png" },
   { "position": "PR Department Head", "name": "Hritik Kotadia", "image": "Hritik_Kotadia.png" },
-  { "position": "NJ Chapter Head", "name": "Aarav Singh", "image": "Aarav_Singh.png" },
-  {
-    "position": "Content Writer",
-    "name": "Shashidhar Prabhu",
-    "image": "Shashidhar_Prabhu.png"
-  },
-  { "position": "Content Writing Intern", "name": "Anvita Bhogadi", "image": "Anvita_Bhogadi.png" },
   { "position": "Social Media Head", "name": "Naveli Mehta", "image": "Naveli_Mehta.png" },
+  { "position": "Director of Design", "name": "Manav Sharma", "image": "Manav_Sharma.png" },
+  { "position": "Social Media Manager ", "name": "Sara Shah", "image": "Sara_Shah.png" },
+  { "position": "Technology Co-Director", "name": "Arnav Bhola", "image": "Arnav_Bhola.png" },
+  {
+    "position": "Technology Co-Director",
+    "name": "Achintya Pasricha",
+    "image": "Achintya_Pasricha.png"
+  },
+  { "position": "New Jersey Chapter Head", "name": "Aarav Singh", "image": "Aarav_Singh.png" },
   {
     "position": "Social Media Designer",
     "name": "Nishtha Purohit",
     "image": "Nishtha_Purohit.png"
   },
   {
-    "position": "Technology Co-Director",
-    "name": "Achintya Pasricha",
-    "image": "Achintya_Pasricha.png"
+    "position": "Content Writer",
+    "name": "Shashidhar Prabhu",
+    "image": "Shashidhar_Prabhu.png"
   },
-  { "position": "Director of Design", "name": "Manav Sharma", "image": "Manav_Sharma.png" },
-  { "position": "Content Writer", "name": "Ziya Nandu", "image": "Ziya_Nandu.png" },
-  { "position": "Social Media Manager ", "name": "Sara Shah", "image": "Sara_Shah.png" }
+  { "position": "Project Intern", "name": "Siyaa Chaturvedi", "image": "Siyaa_Chaturvedi.png" },
+  { "position": "Content Writer", "name": "Ria Damani", "image": "Ria_Damani.png" },
+  { "position": "Content Writing Intern", "name": "Anvita Bhogadi", "image": "Anvita_Bhogadi.png" },
+  { "position": "Content Writer", "name": "Ziya Nandu", "image": "Ziya_Nandu.png" }
 ]

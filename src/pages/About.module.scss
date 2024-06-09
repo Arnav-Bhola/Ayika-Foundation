@@ -1,27 +1,37 @@
-.container {
+.container,
+.container-reverse {
   max-width: 95%;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 8rem 4rem;
   min-height: calc(100vh - var(--navbar-height));
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 4rem;
+}
+
+.container-reverse {
+  flex-direction: row-reverse;
 }
 
 .heading {
   font-family: "Inter", sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 1.5rem;
   color: #333; /* Adjust the color as needed */
 }
 
 .text {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 1.4;
   color: #555; /* Adjust the color as needed */
+}
+
+.image {
+  width: 30vw;
 }
 
 /* Responsive adjustments */

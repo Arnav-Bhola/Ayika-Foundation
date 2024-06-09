@@ -9,7 +9,7 @@ import ProjectsPage from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
 import Gallery from "./pages/Gallery";
 import Recognitions from "./pages/Recognitions";
-import Mission from "./pages/Mission";
+import About from "./pages/About";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
       },
       { path: "gallery", element: <Gallery /> },
       { path: "recognitions", element: <Recognitions /> },
-      { path: "story", element: <Mission /> },
+      { path: "about", element: <About /> },
       {
         path: "projects",
         element: <ProjectLayout />,

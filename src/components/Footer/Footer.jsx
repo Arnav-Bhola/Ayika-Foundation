@@ -12,14 +12,13 @@ import socialsData from "../../data/Footer/Socials.json";
 
 // Importing Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faDiscord, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 // Importing Images
 import logo from "../../assets/images/logo-large.png";
 
 // Dictionary that maps icons to string names
 const icons = {
-  faGithub,
   faDiscord,
   faInstagram,
   faLinkedin,

@@ -1,23 +1,18 @@
 [
-  { "alt": "hi", "key": 1, "src": "rect.png", "link": "https://www.google.com" },
-  {
-    "alt": "hi all",
-    "key": 2,
-    "src": "rect2.png",
-    "special": "right",
-    "link": "https://www.google.com"
-  },
-  { "alt": "hi allll", "key": 3, "src": "rect3.png", "link": "https://www.google.com" },
-  { "alt": "hello", "key": 4, "src": "rect4.png", "link": "https://www.google.com" },
-  { "alt": "hola", "key": 5, "src": "rect5.png", "link": "https://www.google.com" },
-  { "alt": "hi", "key": 6, "src": "rect6.png", "link": "https://www.google.com" },
-  {
-    "alt": "hi all",
-    "key": 7,
-    "src": "rect7.png",
-    "special": "left",
-    "link": "https://www.google.com"
-  },
-  { "alt": "hi allll", "key": 8, "src": "rect8.png", "link": "https://www.google.com" },
-  { "alt": "hello", "key": 9, "src": "rect9.png", "link": "https://www.google.com" }
+  { "src": "Awarded by Cabinet Minister Piyush Goyal", "title": "Piyush goyal Award" },
+  { "src": "Diana Award", "title": "Diana Award" },
+  { "src": "Janambhoomi", "title": "Janambhoomi" },
+  { "src": "Janambhoomi 2", "title": "Janambhoomi 2" },
+  { "src": "Maharashtra Times", "title": "Maharashtra Times" },
+  { "src": "Midday", "title": "Midday Feature" },
+  { "src": "Midday Feature 2", "title": "Midday Feature 2" },
+  { "src": "Midday Gujarati", "title": "Midday Gujarati" },
+  { "src": "Navbharat Times Article 1", "title": "Navbharat Times Article 1" },
+  { "src": "Navbharat Times Article 2", "title": "Navbharat Times Article 2" },
+  { "src": "Navbharat Times Article 3", "title": "Navbharat Times Article 3" },
+  { "src": "Navbharat Times Article 4", "title": "Navbharat Times Article 4" },
+  { "src": "Tapasvini", "title": "Tapasvini" },
+  { "src": "Textile Mirror", "title": "Textile Mirror" },
+  { "src": "Textile World", "title": "Textile World" },
+  { "src": "The Economic Times", "title": "The Economic Times" }
 ]

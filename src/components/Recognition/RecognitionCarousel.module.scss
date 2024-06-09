@@ -12,8 +12,9 @@
   overflow: hidden;
 
   img {
-    width: 80%;
+    width: 50%;
     user-select: none;
+    aspect-ratio: 1;
   }
 }
 
@@ -63,7 +64,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 2.5vw;
+  right: 10vw;
 
   &:hover {
     opacity: 1;
@@ -71,7 +72,7 @@
 }
 
 .left {
-  left: 2.5vw;
+  left: 10vw;
 }
 
 .dots {
@@ -104,5 +105,13 @@
     img {
       width: 95%;
     }
+  }
+
+  .right {
+    right: 2.5vw;
+  }
+
+  .left {
+    left: 2.5vw;
   }
 }

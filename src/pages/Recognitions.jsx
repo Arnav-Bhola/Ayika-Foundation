@@ -20,17 +20,15 @@ const Recognitions = () => {
           }
 
           return (
-            <a
-              href={i.link}
-              key={index}
-              className={styles["gallery-object"]}
-            >
+            <div className='recognition'>
               <img
                 className={classes}
-                src={"Images/Gallery/" + i.src}
-                alt={i.alt}
+                src={"Images/Recognition/" + i.src + ".jpg"}
+                alt={i.src}
+                key={index}
               ></img>
-            </a>
+              <h2 className={styles["name"]}>{i.title}</h2>
+            </div>
           );
         })}
       </div>

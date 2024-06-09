@@ -19,10 +19,10 @@ const PhoneNavbar = ({ shouldShow }) => {
                 <FontAwesomeIcon icon={showDropdown ? faChevronUp : faChevronDown} />
               </div>
               <Link
-                to='/mission'
+                to='/story'
                 className={styles["link"]}
               >
-                Mission
+                Our Story
               </Link>
             </div>
             <div className={styles["link-container"]}>

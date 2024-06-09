@@ -1,5 +1,6 @@
 [
-  { "alt": "hi", "key": 1, "src": "1.jpg" },
-  { "alt": "hi all", "key": 2, "src": "2.jpg" },
-  { "alt": "hi allll", "key": 3, "src": "3.jpg" }
+  { "key": 1, "src": "Awarded by Cabinet Minister Piyush Goyal" },
+  { "key": 2, "src": "Navbharat Times Article 1" },
+  { "key": 3, "src": "Diana Award" },
+  { "key": 4, "src": "Midday Feature 2" }
 ]

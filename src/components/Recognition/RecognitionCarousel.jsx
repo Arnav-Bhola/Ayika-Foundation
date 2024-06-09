@@ -32,8 +32,8 @@ const RecognitionCarousel = () => {
         {IMAGES.map((i, index) => {
           return (
             <img
-              src={"Images/Recognitions/" + i.src}
-              alt={i.alt}
+              src={"Images/Recognition/" + i.src + ".jpg"}
+              alt={i.src}
               key={index}
               className={
                 currentId === i.key

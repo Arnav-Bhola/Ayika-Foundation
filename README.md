@@ -10,6 +10,6 @@ We are a group of young activists who wish to create a difference in the society
 Ayika Foundation works towards creating a sustainable future for humans and animals alike by conducting various projects, drives, campaigns, spreading awareness, writing blogs, and hosting podcasts. We wish to transform the way people think about waste management, and promote animal protection. We recently conducted a public park cleanup and recycling campaign.
 
 ### Find More At:
-- (Our Website - AyikaFoundation.org)[https://www.ayikafoundation.org]
+- [Our Website - AyikaFoundation.org](https://www.ayikafoundation.org)
 - (Our Instagram - @ayika.foundation)[https://www.instagram.com/ayika.foundation/]
 - (Our Linkedin - ayikafoundation)[https://www.linkedin.com/company/ayikafoundation]

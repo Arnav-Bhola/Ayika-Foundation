@@ -11,5 +11,5 @@ Ayika Foundation works towards creating a sustainable future for humans and anim
 
 ### Find More At:
 - [Our Website - AyikaFoundation.org](https://www.ayikafoundation.org)
-- (Our Instagram - @ayika.foundation)[https://www.instagram.com/ayika.foundation/]
-- (Our Linkedin - ayikafoundation)[https://www.linkedin.com/company/ayikafoundation]
+- [Our Instagram - @ayika.foundation](https://www.instagram.com/ayika.foundation/)
+- [Our Linkedin - ayikafoundation](https://www.linkedin.com/company/ayikafoundation)

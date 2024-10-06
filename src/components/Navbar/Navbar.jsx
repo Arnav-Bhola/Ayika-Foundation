@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import styles from "./Navbar.module.scss";
 import PhoneNavbar from "./PhoneNavbar";
 
-import Logo from "../../assets/images/logo-large.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Logo from "../../assets/images/logo-large.png";
 
 const Navbar = () => {
   const [shouldShowNavbar, setShouldshowNavbar] = useState(false);
@@ -49,6 +49,12 @@ const Navbar = () => {
               className={styles["link"]}
             >
               Gallery
+            </Link>
+            <Link
+              to='/recognitions'
+              className={styles["link"]}
+            >
+              Recognitions
             </Link>
           </div>
           <a

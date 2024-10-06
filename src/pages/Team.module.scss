@@ -1,10 +1,10 @@
 .header {
-  height: calc(100vh - var(--navbar-height));
+  height: 55vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 9rem;
-  text-decoration: underline;
+  font-size: 6rem;
+  text-decoration: none;
   text-transform: uppercase;
   font-family: "Montserrat", serif;
   text-align: center;
@@ -136,6 +136,8 @@
   .founders-container {
     display: flex;
     flex-direction: column;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 
   .founders-position {
@@ -177,7 +179,7 @@
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    margin: 15rem 5rem;
+    margin: 15rem 1rem;
   }
 }
 

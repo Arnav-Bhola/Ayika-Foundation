@@ -12,7 +12,8 @@
   overflow: hidden;
 
   img {
-    width: 50%;
+    max-width: 35%;
+    height: 30%;
     user-select: none;
     aspect-ratio: 1;
   }
@@ -104,6 +105,7 @@
   .photos {
     img {
       width: 95%;
+      max-width: 100%;
     }
   }
 

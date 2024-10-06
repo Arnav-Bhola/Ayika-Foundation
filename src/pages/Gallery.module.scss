@@ -6,12 +6,12 @@
 }
 
 .header {
-  height: calc(100vh - var(--navbar-height));
+  height: 55vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 7rem;
-  text-decoration: underline;
+  font-size: 6rem;
+  text-decoration: none;
   text-transform: uppercase;
   font-family: "Montserrat", serif;
   text-align: center;
@@ -62,7 +62,7 @@
 
 @media only screen and (max-width: 36em) {
   .header {
-    font-size: 5.5rem;
+    font-size: 5rem;
   }
 }
 
@@ -78,7 +78,7 @@
 
 @media only screen and (max-width: 28.125em) {
   .header {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 

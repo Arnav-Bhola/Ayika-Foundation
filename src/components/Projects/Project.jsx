@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import styles from "./Project.module.scss";
 
-const Project = ({ heading, details, image, link }) => {
+const Project = ({ id, heading, details, image }) => {
   return (
     <div className={styles["container"]}>
       <h1 className={styles["heading"]}>{heading}</h1>
@@ -13,12 +14,12 @@ const Project = ({ heading, details, image, link }) => {
           className={styles["image"]}
         ></img>
       </div>
-      {/* <a
-        href={link}
+      <Link
+        to={`/projects/${id}`}
         className={styles["link"]}
       >
         Learn More
-      </a> */}
+      </Link>
     </div>
   );
 };
